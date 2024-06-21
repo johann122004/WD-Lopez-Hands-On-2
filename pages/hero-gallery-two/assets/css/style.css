@@ -16,6 +16,11 @@ header{
     padding-bottom: 10px;
 }
 
+section.bg{
+    & img{
+        width: 100%;
+    }
+}
 header .button{
     margin-left: 50px;
     margin-right: 50px;

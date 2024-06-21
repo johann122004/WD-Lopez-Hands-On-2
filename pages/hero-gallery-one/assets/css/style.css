@@ -10,7 +10,8 @@ header{
     position: fixed;
     width: 100%;
     z-index: 999;
-    background-color: blanchedalmond;
+    border: solid 3px;
+    background-color: rgba(255, 235, 205, 0.603);
     padding-top: 10px;
     padding-bottom: 10px;
 }

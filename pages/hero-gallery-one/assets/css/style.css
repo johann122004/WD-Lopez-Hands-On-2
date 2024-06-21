@@ -26,16 +26,19 @@ header .button{
     font-weight: bold;
 }
 
-body{
-    background-image: url(../img/hero-background.jpg);
-    background-repeat: no-repeat;
+section.bg{
+    width: 100%;
+    height: auto;
+}
+
+section.bg img{
+    width: 100&;
 }
 
 section.title{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
     & h1{
         font-size: 50px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,8 +51,8 @@ section.title{
 }
 
 section.card-s{
-    position: relative;
-    top: 250px;
+    position: absolute;
+    top: 500px;
     width: 500px;
     left: 200px;
     border: 5px solid white;
@@ -68,10 +71,10 @@ section.card-s{
 }
 
 section.card-a{
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 600px;
     width: 500px;
-    left: 1000px;
+    left: 1200px;
     border: 5px solid white;
     border-radius: 25px;
     background-color: rgba(0, 255, 255, 0.507);

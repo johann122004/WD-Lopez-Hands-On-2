@@ -33,6 +33,7 @@ section.bg{
 
 section.bg img{
     width: 100%;
+    height: auto;
 }
 
 section.title{

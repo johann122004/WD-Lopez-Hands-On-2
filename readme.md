@@ -133,5 +133,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| CSS Layout - The position Property | For the positioning of the sections| https://www.w3schools.com/css/css_positioning.asp |
+| Responsive Web Design - Images | To change the size of the image whenever resizing the website. | https://www.w3schools.com/css/css_rwd_images.asp |
+| How to Write Text on Image using HTML and CSS | For additional help in putting the text above the image | https://www.youtube.com/watch?v=Ne-uF4oY6pQ |

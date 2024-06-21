@@ -87,7 +87,7 @@ Guiding Question:
 ### Deployment
 #### The link to the deployed website
 
-- 
+- https://johann122004.github.io/WD-Lopez-Hands-On-2/
 
 ### Guide
 #### How to use this Website?

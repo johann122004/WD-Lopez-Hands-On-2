@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: blanchedalmond;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header .button{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px white solid;
+    background-color: rgba(0, 255, 242, 0.486);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bold;
+}

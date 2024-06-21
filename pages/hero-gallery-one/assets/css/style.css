@@ -25,3 +25,73 @@ header .button{
     padding: 10px;
     font-weight: bold;
 }
+
+body{
+    background-image: url(../img/hero-background.jpg);
+    background-repeat: no-repeat;
+}
+
+section.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    & h1{
+        font-size: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bolder;
+        color: red;
+        background-color: rgba(0, 0, 0, 0.459);
+        padding: 15px;
+        border: solid 3px white;
+    }
+}
+
+section.card-s{
+    position: relative;
+    top: 250px;
+    width: 500px;
+    left: 200px;
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 255, 255, 0.507);
+    padding: 20px;
+    & h2{
+        font-size: 40px;
+        color: rgb(255, 255, 171);
+        text-decoration: underline;
+    }
+    & p{
+        font-size: 20px;
+        color: rgb(255, 255, 91);
+    }
+}
+
+section.card-a{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    left: 1000px;
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: rgba(0, 255, 255, 0.507);
+    padding: 20px;
+    transition: 5s;
+    & h2{
+        font-size: 40px;
+        color: rgb(255, 255, 171);
+        transition: .5s;
+        &:hover{
+            color: rgb(172, 0, 0);
+            text-decoration: overline underline;
+        }
+    }
+    & p{
+        font-size: 20px;
+        color: rgb(255, 255, 91);
+        transition: .5s;
+        &:hover{
+            transform: rotateY(180deg);
+        }
+    }
+}

@@ -25,3 +25,96 @@ header .button{
     padding: 10px;
     font-weight: bold;
 }
+
+body{
+    background-color: rgb(148, 47, 0);
+    align-items: center;
+}
+
+section.card-s{
+    display: flex;
+    height: 50vh;
+    width: 150vh;
+    background-color: rgb(130, 194, 35);
+    border: 5px solid rgb(189, 50, 0);
+    padding-left: 20px;
+    margin: .2rem 10vw 0;
+}
+
+section.card-s .image{
+    margin-top: 75px;
+    padding: 5px;
+    & img{
+        max-width: 100%;
+        max-width: 100%;
+        border: solid 5px white;
+        border-radius: 25px;
+    }
+}
+
+section.card-s .text{
+    margin-top: 75px;
+    padding: 50px;
+    & h1{
+        font-size: 50px;
+    }
+    & h2{
+        font-size: 37.5px;
+    }
+    & p{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    & h1, h2, p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: yellow;
+        font-weight: bold;
+    }
+}
+
+section.card-a{
+    display: flex;
+    height: 50vh;
+    width: 150vh;
+    background-color: rgb(130, 194, 35);
+    border: 5px solid rgb(189, 50, 0);
+    padding-left: 20px;
+    margin: .2rem 10vw 0;
+    transition: .5s ease;
+}
+
+section.card-a .image{
+    margin-top: 75px;
+    padding: 5px;
+    & img{
+        max-width: 100%;
+        max-width: 100%;
+        border: solid 5px white;
+        border-radius: 25px;
+        transition: .5s;
+        &:hover{
+            transform:rotateZ(360deg);
+        }
+    }
+}
+
+section.card-a .text{
+    margin-top: 75px;
+    padding: 50px;
+    & h1{
+        font-size: 50px;
+    }
+    & h2{
+        font-size: 37.5px;
+    }
+    & p{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    & h1, h2, p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: yellow;
+        font-weight: bold;
+        
+    }
+}

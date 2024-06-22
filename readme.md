@@ -71,10 +71,19 @@ Guiding Question:
 - What are key components
 - What technology used and how it is used
 
+Answers:
+- What is the project
+  - The project is a Hands On project meant to be done during inside the campus of FEUTech.
+- Whats the purpose
+  - The purpose is to create a website that features hero webpages that has designs that are unique to each other. It will also include a Gallery Website featuring different types of cards that are featured in each hero webpage.
+- What are key components
+  - The key components of the website are that it is a Multi-Page Website, it features a gallery website for the display of the hero webpage cards, and  the cards that are featured will have static and animated versions.
+- What technology used and how it is used
+  - The technology that is used are HTML and CSS. HTML is used to create the body of the website such as adding the words and the images, while CSS is used to design the output of the website.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website
+- Multi-Page Website
 - Gallery Website
 - Static and Animated designs
 
@@ -82,7 +91,6 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ### Deployment
 #### The link to the deployed website

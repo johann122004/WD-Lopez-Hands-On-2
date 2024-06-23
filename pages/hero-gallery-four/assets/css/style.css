@@ -26,6 +26,11 @@ header .button{
     font-weight: bold;
 }
 
+body {
+    background-color: red;
+    background-image: linear-gradient(to left, red, white);
+}
+
 section.title{
     display: flex;
     justify-content: center;
@@ -34,5 +39,7 @@ section.title{
     & h1{
         font-size: 50px;
         color: red;
+        background-color: grey;
+        padding: 15px;
     }
 }

@@ -29,6 +29,7 @@ header .button{
 body{
     background-color: rgb(148, 47, 0);
     align-items: center;
+    background-image: linear-gradient(rgb(148, 47, 0), yellow);
 }
 
 section.card-s{
@@ -103,18 +104,28 @@ section.card-a .text{
     padding: 50px;
     & h1{
         font-size: 50px;
+        transition: .5s;
+        &:hover{
+            filter: drop-shadow( 0 0 5px red);
+        }
     }
     & h2{
         font-size: 37.5px;
     }
     & p{
         font-size: 20px;
+        color: transparent;
+        background-color: yellow;
         text-decoration: underline;
+        transition: .5s ease;
+        &:hover{
+            color: yellow;
+            background-color: transparent;
+        }
     }
     & h1, h2, p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: yellow;
         font-weight: bold;
-        
     }
 }

@@ -144,3 +144,4 @@ WD-ProjectName
 | CSS Layout - The position Property | For the positioning of the sections| https://www.w3schools.com/css/css_positioning.asp |
 | Responsive Web Design - Images | To change the size of the image whenever resizing the website. | https://www.w3schools.com/css/css_rwd_images.asp |
 | How to Write Text on Image using HTML and CSS | For additional help in putting the text above the image | https://www.youtube.com/watch?v=Ne-uF4oY6pQ |
+| CSS flex-basis Property | For changing the size of a flex container for one of the cards | https://www.w3schools.com/cssref/css3_pr_flex-basis.php |

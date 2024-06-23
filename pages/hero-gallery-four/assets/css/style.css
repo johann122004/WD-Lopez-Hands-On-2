@@ -25,3 +25,14 @@ header .button{
     padding: 10px;
     font-weight: bold;
 }
+
+section.title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    & h1{
+        font-size: 50px;
+        color: red;
+    }
+}

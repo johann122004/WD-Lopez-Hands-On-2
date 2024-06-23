@@ -25,3 +25,52 @@ header .button{
     padding: 10px;
     font-weight: bold;
 }
+
+body{
+    background-color: black;
+    & h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: orange;
+        text-align: center;
+        filter: drop-shadow(0 0 10px rgb(255, 8, 0));
+    }
+}
+
+.together{
+    text-align: center;
+    border-radius: 25%;
+    & img{
+        max-width: 25%;
+        max-height: 25%;
+        margin-top: 100px;
+    }
+}
+
+section.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.cards .card-s{
+    margin: 50px;
+    width: 750px;
+    & h2, p{
+        color: white;
+    }
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+section.cards .card-a{
+    margin: 50px;
+    width: 750px;
+    & h2, p{
+        color: white;
+    }
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}

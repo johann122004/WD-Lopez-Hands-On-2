@@ -221,3 +221,52 @@ body{
         font-weight: bold;
     }
 }
+
+.card-four section.card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+.card-four section.card .card-s{
+    flex-basis: 50%;
+    padding: 25px;
+    border: 5px solid white;
+    border-radius: 25%;
+    & h2, p{
+        background-color: rgba(0, 0, 0, 0.486);
+        color: rgb(0, 204, 255);
+        padding: 25px;
+        border-radius: 10%;
+    }
+}
+
+.card-four section.card .card-a{
+    flex-basis: 50%;
+    padding: 25px;
+    border: 5px solid white;
+    border-radius: 25%;
+    & h2, p{
+        background-color: rgba(0, 0, 0, 0.486);
+        color: rgb(0, 204, 255);
+        padding: 25px;
+        border-radius: 10%;
+    }
+}
+.card-four section.card .card-a{
+    flex-basis: 50%;
+    padding: 25px;
+    transition: .5s;
+
+    & p, h2{
+        transition: .5s ease-in-out;
+        &:hover{
+            filter: drop-shadow(0 0 5px red);
+            text-decoration: underline;
+        }
+    }
+}

@@ -73,9 +73,10 @@ section.cards .card-a{
     margin: 50px;
     width: 750px;
     & h2, p{
-        color: white;
+        color: rgb(26, 26, 27);
         transition: .5s;
         &:hover{
+            color: white;
             text-decoration: overline underline;
             font-weight: bold;
         }
@@ -90,7 +91,7 @@ section.cards .card-a .bp img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    opacity: 0;
+    opacity: 0.1;
     transition: .5s ease-in-out;
 }
 

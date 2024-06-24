@@ -30,7 +30,7 @@ body{
     background-color: gray;
 }
 
-section.card-s{
+.card-one section.card-s{
     position: absolute;
     top: 250px;
     width: 500px;
@@ -50,7 +50,7 @@ section.card-s{
     }
 }
 
-section.card-a{
+.card-one section.card-a{
     position: absolute;
     top: 300px;
     width: 500px;
@@ -76,5 +76,148 @@ section.card-a{
         &:hover{
             transform: rotateY(180deg);
         }
+    }
+}
+
+.card-two section.card-s{
+    position: absolute;
+    top: 500px;
+    left: 10%;
+    width: 1000px;
+    padding: 15px;
+    background-color: rgba(255, 229, 84, 0.39);
+    border: 10px solid rgb(255, 109, 56);
+    & h2{
+        font-size: 100px;
+        color: blanchedalmond;
+    }
+    & p{
+        font-size: 50px;
+        color: blanchedalmond;
+    }
+}
+
+.card-two section.card-a{
+    position: absolute;
+    top: 960px;
+    left: 50%;
+    width: 800px;
+    padding: 15px;
+    border: 10px solid black;
+    transition: .25s;
+    &:hover{
+        background-color: rgba(255, 229, 84, 0.767);
+        border: 10px solid rgb(255, 109, 56);
+    }
+    & h2, p{
+        color: black;
+        transition: .5s ease-in-out;
+        &:hover{
+            color: blanchedalmond;
+        }
+    }
+    & h2{
+        font-size: 100px;
+    }
+    & p{
+        font-size: 50px;
+    }
+}
+
+.card-three section.card-s{
+    display: flex;
+    height: 50vh;
+    width: 150vh;
+    background-color: rgb(130, 194, 35);
+    border: 5px solid rgb(189, 50, 0);
+    padding-left: 20px;
+    margin: .2rem 10vw 0;
+}
+
+.card-three section.card-s .image{
+    margin-top: 75px;
+    padding: 5px;
+    & img{
+        max-width: 100%;
+        max-width: 100%;
+        border: solid 5px white;
+        border-radius: 25px;
+    }
+}
+
+.card-three section.card-s .text{
+    margin-top: 75px;
+    padding: 50px;
+    & h1{
+        font-size: 50px;
+    }
+    & h2{
+        font-size: 37.5px;
+    }
+    & p{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    & h1, h2, p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: yellow;
+        font-weight: bold;
+    }
+}
+
+.card-three section.card-a{
+    display: flex;
+    height: 50vh;
+    width: 150vh;
+    background-color: rgb(130, 194, 35);
+    border: 5px solid rgb(189, 50, 0);
+    padding-left: 20px;
+    margin: .2rem 10vw 0;
+    transition: .5s ease;
+}
+
+.card-three section.card-a .image{
+    margin-top: 75px;
+    padding: 5px;
+    & img{
+        max-width: 100%;
+        max-width: 100%;
+        border: solid 5px white;
+        border-radius: 25px;
+        transition: .5s;
+        &:hover{
+            transform:rotateZ(360deg);
+        }
+    }
+}
+
+.card-three section.card-a .text{
+    margin-top: 75px;
+    padding: 50px;
+    & h1{
+        font-size: 50px;
+        transition: .5s;
+        &:hover{
+            filter: drop-shadow( 0 0 5px red);
+        }
+    }
+    & h2{
+        font-size: 37.5px;
+    }
+    & p{
+        font-size: 20px;
+        color: transparent;
+        background-color: yellow;
+        text-decoration: underline;
+        transition: .5s ease;
+        &:hover{
+            color: yellow;
+            background-color: transparent;
+        }
+    }
+    & h1, h2, p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: yellow;
+        font-weight: bold;
     }
 }

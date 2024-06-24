@@ -270,3 +270,56 @@ body{
         }
     }
 }
+
+.card-five section.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-five section.cards .card-s{
+    margin: 50px;
+    width: 750px;
+    & h2, p{
+        color: white;
+    }
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.card-five section.cards .card-s .bp img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-five section.cards .card-a{
+    margin: 50px;
+    width: 750px;
+    & h2, p{
+        color: rgb(26, 26, 27);
+        transition: .5s;
+        &:hover{
+            color: white;
+            text-decoration: overline underline;
+            font-weight: bold;
+        }
+    }
+    & img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+
+.card-five section.cards .card-a .bp img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.1;
+    transition: .5s ease-in-out;
+}
+
+.card-five section.cards .card-a .bp:hover img{
+    opacity: 1
+}
